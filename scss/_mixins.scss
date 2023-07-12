@@ -1,0 +1,52 @@
+@mixin li {
+    color: #000;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+@mixin container {
+    max-width: 1165px;
+    width: 95%;
+    margin: 0 auto;
+}
+@mixin h1 {
+    color: $title-color;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 28px;
+    display: block;
+}
+@mixin h3 {
+    position: absolute;
+    left: 41px;
+    top: 32px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+@mixin p {
+    color: #8A8787;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 238px;
+    height: 36px;
+}
+@mixin h2 {
+    color: #8A8787;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

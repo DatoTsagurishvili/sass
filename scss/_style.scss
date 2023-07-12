@@ -1,0 +1,59 @@
+body {
+    background-color: $background-color;
+}
+header div {
+    @include container;
+    display: flex;
+    align-items: center;
+    padding: 21px 0 21px;
+    margin-bottom: 21px;
+    nav {
+    width: 290px;
+    margin-right: 29px;
+        ul {
+            max-width: 290px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            
+            li {
+                @include li
+            }
+        }
+    }
+}
+
+.s-1 {
+    margin-bottom: 36px; 
+    .container {
+        @include container
+    }  
+    h1 {
+        @include h1
+    }
+    .cards {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .card {
+            height: 357px;
+            width: 362px;
+            background-color: $card-color;
+            div {
+                width: 100%;
+                position: relative;
+                img {
+                    width: 100%;                    
+                    
+                }
+                h3 {
+                    @include h3
+                }
+            }
+            p {
+                @include p
+            }
+
+        }
+   }
+}

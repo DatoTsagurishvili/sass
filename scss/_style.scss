@@ -39,21 +39,103 @@ header div {
             height: 357px;
             width: 362px;
             background-color: $card-color;
-            div {
+            .photo {
                 width: 100%;
                 position: relative;
                 img {
-                    width: 100%;                    
-                    
+                    width: 100%;
                 }
                 h3 {
                     @include h3
                 }
             }
+
             p {
                 @include p
             }
+            h2 {
+                @include h2
+            }
+            div.texts {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 61px;
+                margin:11px 0 0 40px;
+            } 
 
         }
    }
+}
+.s-2 {
+    margin-bottom: 36px;
+    .container {
+        @include container;
+         h1 {
+        @include h1
+        }
+    }
+    .wrap {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .pw1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 902px;
+            .top {
+                position: relative;
+            }
+            h5 {
+                @include h3;
+                top: 203px;
+                left: 278px;
+                
+            }
+        }
+        .pw2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 362px;
+            height: 836px;
+        }
+    }
+}
+footer {
+    background-color: #243043;
+    padding: 59px 0 44px;
+    .container {
+        @include container;
+        display: flex;
+        justify-content: space-between;
+        .du {
+            width: 755px;
+            display: flex;
+            justify-content: space-between;
+            
+            .list {
+                height: 104px;
+                ul {
+                    vertical-align: top;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    li {
+                        @include li
+                    }
+                }
+            }
+            h5 {
+                @include h5;
+                vertical-align: top;
+            }
+        }
+    }
+    img {
+        width: 38px;
+        height: 40px;
+    }
 }

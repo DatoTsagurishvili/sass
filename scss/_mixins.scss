@@ -38,9 +38,11 @@
     font-size: 10px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 20px;
     width: 238px;
     height: 36px;
+    margin: 68px 0 0 37px;
+  
 }
 @mixin h2 {
     color: #8A8787;
@@ -48,5 +50,21 @@
     font-size: 10px;
     font-style: normal;
     font-weight: 700;
+    line-height: normal;
+}
+@mixin li {
+    color: #818687;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+@mixin h5 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
     line-height: normal;
 }

@@ -91,6 +91,9 @@ header div nav ul li {
   font-weight: 700;
   line-height: normal;
 }
+header div img {
+  border-radius: 50%;
+}
 
 .s-1 {
   margin-bottom: 36px;
